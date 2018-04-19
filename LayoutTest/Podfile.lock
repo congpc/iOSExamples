@@ -1,0 +1,34 @@
+PODS:
+  - LayoutTest (4.0.0):
+    - LayoutTest/TestCase (= 4.0.0)
+    - LayoutTestBase (= 4.0.0)
+  - LayoutTest/TestCase (4.0.0):
+    - LayoutTestBase (= 4.0.0)
+    - LayoutTestBase/Config
+    - LayoutTestBase/Core
+  - LayoutTestBase (4.0.0):
+    - LayoutTestBase/Autolayout (= 4.0.0)
+    - LayoutTestBase/Catalog (= 4.0.0)
+    - LayoutTestBase/Config (= 4.0.0)
+    - LayoutTestBase/Core (= 4.0.0)
+    - LayoutTestBase/UIViewHelpers (= 4.0.0)
+  - LayoutTestBase/Autolayout (4.0.0)
+  - LayoutTestBase/Catalog (4.0.0):
+    - LayoutTestBase/Core
+  - LayoutTestBase/Config (4.0.0)
+  - LayoutTestBase/Core (4.0.0):
+    - LayoutTestBase/Config
+  - LayoutTestBase/UIViewHelpers (4.0.0):
+    - LayoutTestBase/Config
+
+DEPENDENCIES:
+  - LayoutTest
+  - LayoutTestBase
+
+SPEC CHECKSUMS:
+  LayoutTest: 4d4f35f1da4d8643d12a19a7323e783bbf4ea1ef
+  LayoutTestBase: db9a11aef626dd37605b446c0e29a287a9c29de9
+
+PODFILE CHECKSUM: f42833d32c46a14d764e88c4b6954fccfbc8bcd9
+
+COCOAPODS: 1.4.0
